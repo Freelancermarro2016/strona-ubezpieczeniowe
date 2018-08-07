@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+.navbar {
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.9;
+background-color: blue;
+}
+
+
+
+
+marquee {
+border-radius: 50%;
+font-size: 3.5rem;
+font-family: 'Vollkorn', serif;
+ text-transform: uppercase;
+color: #f4511e;
+}
+.jumbotron {
+background-image: url("https://images.pexels.com/photos/2133/man-person-cute-young.jpg?auto=compress&cs=tinysrgb&h=350");
+ min-height:400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 900;
+ 
+}
+
+.container h1 {
+
+margin: 380px 10px 1px 10px;
+font-family: 'Vollkorn', serif;
+  font-weight: 900;
+  font-size: 4.3rem;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+
+
+.container-fluid-1 {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
